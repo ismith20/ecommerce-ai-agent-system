@@ -1,0 +1,25 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# API keys and environment variables
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Generated AI reports
+manager_report.json
+research_queue.json
+
+# VS Code settings
+.vscode/
